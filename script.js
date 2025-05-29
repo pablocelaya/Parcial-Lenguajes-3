@@ -21,7 +21,7 @@ document.getElementById("registroForm").addEventListener("submit", function (e) 
 
 
   //el dni debe ser menor a 8
-  if (!/^\d{8}$/.test(dni) || !/^[a-zA-Z\s]+$/.test(dni)) {
+  if (!/^\d{8}$/.test(dni) ) {
     alert("deben ser 8 numeros.y solo numeros, sin puntos");
     return;
   }
